@@ -1,0 +1,12 @@
+{
+  "name": "screaming-cat-overlay",
+  "version": "1.0.0",
+  "description": "Rotating cat desktop overlay with camera presence screaming cat jumpscare",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": ["cat", "overlay", "screaming-cat"],
+  "author": "",
+  "license": "MIT"
+}

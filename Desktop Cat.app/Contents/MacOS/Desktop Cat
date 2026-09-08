@@ -1,0 +1,4 @@
+#!/bin/bash
+DIR="$(cd "$(dirname "$0")" && pwd)"
+RESOURCES_DIR="$DIR/../Resources"
+exec /usr/bin/osascript -l JavaScript "$RESOURCES_DIR/desktop_cat.js" "$RESOURCES_DIR"
